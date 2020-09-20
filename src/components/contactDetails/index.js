@@ -24,7 +24,7 @@ const ContactDetails = ({location, email, phone})=>{
             </div>
 
             <br/>
-            <p className="text-center">We look forward to hearing from you and remember your estimate will be free. <br/>Mention our website and receive a <strong>10% discount</strong>.</p>
+            <p className="text-center">We look forward to hearing from you and remember your estimate will be free. <br/>Mention our website and receive a <strong>10%&nbsp;discount</strong>.</p>
         </div>
     );
 };
