@@ -4,13 +4,13 @@ import {NavLink} from "react-router-dom";
 const NavBar = ()=>{
     return(
     <header id="header">
-        <div className="container d-flex">
+        <div className="container d-flex header-nav-mobile">
 
         <div className="logo mr-auto">
             <h1 className="text-light"><NavLink to="/">Sophy's Upholstery</NavLink></h1>
         </div>
 
-        <nav className="nav-menu d-none d-lg-block">
+        <nav className="nav-menu d-lg-block">
             <ul>
                 <li><NavLink exact to="/" activeStyle={{color: "#f03c02"}}>Home</NavLink></li>
                 <li><NavLink to="/about" activeStyle={{color: "#f03c02"}}>About</NavLink></li>

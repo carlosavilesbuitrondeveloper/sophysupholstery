@@ -27,3 +27,38 @@
     width: 100%; 
     height: 350px;
 }
+
+.breadcrumbs{
+    clear: both;
+}
+
+@media(max-width:768px){
+
+    .contact-info{
+        margin: 0 auto !important;
+    }
+
+    .header-nav-mobile{
+        display: block !important;
+        text-align: center;
+
+        h1{
+            a{
+                color: #f03c02 !important;
+                font-size: 22px;
+                text-align: center;
+            }
+        }
+
+        nav{
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            
+            ul{
+                margin: 0 auto;
+                
+            }
+        }
+    }
+}
