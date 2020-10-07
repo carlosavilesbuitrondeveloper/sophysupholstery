@@ -34,6 +34,10 @@
 
 @media(max-width:768px){
 
+    .mobile-off{
+        display: none;
+    }
+
     .contact-info{
         margin: 0 auto !important;
     }
