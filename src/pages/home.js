@@ -9,13 +9,13 @@ import Hero from '../components/hero';
 import Portfolio from '../containers/portfolio';
 import Services from '../containers/services';
 
-const Home = ()=>{
+const Home = ({id})=>{
     return(
     <>
         <Hero />
         <CTA />
         <Services />
-        <Portfolio />
+        <Portfolio id={id} />
     </>);
 };
 

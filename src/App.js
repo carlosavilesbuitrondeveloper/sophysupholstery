@@ -14,6 +14,9 @@ import Gallery from './pages/gallery';
 import Header from './containers/header';
 import Footer from './containers/footer';
 
+//instagram id
+const instagram_id = "4414f168-5d73-40ca-96b4-565bb9e165e6";
+
 function App() {
   return (
     <div className="App">
@@ -31,11 +34,11 @@ function App() {
             </Route>
 
             <Route  path="/gallery">
-              <Gallery />
+              <Gallery id={instagram_id} />
             </Route>
 
             <Route exact path="/">
-              <Home />
+              <Home id={instagram_id} />
             </Route>
 
           </Switch>

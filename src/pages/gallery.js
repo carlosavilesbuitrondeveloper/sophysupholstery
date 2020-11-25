@@ -3,7 +3,7 @@ import React from 'react';
 //components
 import Breadcrumbs from '../components/breadcrumbs';
 
-const Gallery = ()=>{
+const Gallery = ({id})=>{
     return(
         <>
             <Breadcrumbs title="Gallery">
@@ -11,7 +11,7 @@ const Gallery = ()=>{
             </Breadcrumbs>
 
             <section id="gallery" class="gallery">
-                <div class="elfsight-app-52a113bb-808f-48af-adc8-9a1fe6a112c7"></div>
+                <div class={`elfsight-app-${id}`}></div>
             </section>
         </>
     );
